@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import App from './client/containers/App';
+
 const rootDiv = document.querySelector('#root');
 
-ReactDOM.render(<h1>We are here now</h1>, rootDiv);
+ReactDOM.render(<App />, rootDiv);
